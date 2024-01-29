@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  width: 30%;
+  background-color: #ddd;
+  border-radius: 1.5rem;
+}
+
+.container {
+  text-align: center;
+}
+
+.container div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  background-color: brown;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+
+span {
+  text-transform: capitalize;
+}
+
+button {
+  margin-top: 2rem;
+  background-color: aquamarine;
+  border: none;
+  padding: 1rem;
+  margin-left: 45%;
+  border-radius: 50%;
+}
